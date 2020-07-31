@@ -3,7 +3,7 @@ Add-Type -AssemblyName System.Drawing
 
 function testFunction {
 
-    Param(
+    Param (
         [Parameter(Mandatory=$true, Position=1)]
         [string] $IPv4
     )
