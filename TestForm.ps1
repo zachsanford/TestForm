@@ -15,6 +15,7 @@ function testFunction {
 $form = New-Object System.Windows.Forms.Form
 $form.Text = 'This is a test form'
 $form.Size = New-Object System.Drawing.Size(500,500)
+$form.MaximizeBox = $false
 $form.StartPosition = 'CenterScreen'
 
 # Label
